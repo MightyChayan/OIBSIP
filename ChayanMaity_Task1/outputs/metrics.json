@@ -1,0 +1,27 @@
+{
+  "selected_model": "K-Nearest Neighbors",
+  "best_parameters": {
+    "classifier__metric": "euclidean",
+    "classifier__n_neighbors": 3,
+    "classifier__weights": "uniform"
+  },
+  "best_cross_validation_accuracy": 0.9666666666666668,
+  "test_accuracy": 0.9333333333333333,
+  "test_precision_macro": 0.9444444444444445,
+  "test_recall_macro": 0.9333333333333332,
+  "test_f1_macro": 0.9326599326599326,
+  "training_samples": 120,
+  "test_samples": 30,
+  "features": [
+    "SepalLengthCm",
+    "SepalWidthCm",
+    "PetalLengthCm",
+    "PetalWidthCm"
+  ],
+  "classes": [
+    "Setosa",
+    "Versicolor",
+    "Virginica"
+  ],
+  "random_state": 42
+}
